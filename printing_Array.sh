@@ -47,5 +47,5 @@ for((l=0;l<m;l++))
 do
 
 
-      printf arr[$l]
+      printf ${arr[l]}
 done
