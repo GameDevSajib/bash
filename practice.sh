@@ -1,16 +1,16 @@
 #!/bin/bash
 ####now array
-declare -a arr
+declare -a arr[100]
 read n
 for((i=0;i<n;i++))
 do
    read arr[$i]
    done
 
-sum=0
+declare -i sum=0
 for((i=0;i<n;i++))
 do
-    sum+=$arr[$i]
+    $sum+=$arr[$i]
 done
 
 echo $sum
